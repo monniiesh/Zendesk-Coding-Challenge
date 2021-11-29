@@ -16,12 +16,12 @@ run the following command in the location of the program files using terminal
 
 > pip3 install -r requirements.txt
 
-if the above command does not work, then pip3 install each of the required module in requiremnts.txt seperately
+if the above command does not work, then pip3 install each of the required module in requirements.txt seperately
 
 ### 2. Setting up the API
 
 open zendesk.py and ZendeskTester.py, and fill in the API, user and password information<br />
-**Note** : the API should of the format as shown below
+**Note** : the API should be of the format as shown below
 > https://example.zendesk.com/api/v2/tickets.json?page[size]=25
 
 ### Usage
@@ -30,10 +30,10 @@ run the following command in the location of the program files using terminal
 
 > python3 zendesk.py
 
-1. Option (1) displays all the tickets in a table format recieved from the Zendesk API
-    select (1) to move to prev page and 2 to move to next page
+1. Option (1) displays all the tickets in a table format recieved from the Zendesk API<br />
+    select (1) to move to prev page and (2) to move to next page
 
-2. Option (2) displays detailed information of a particular ticket based on the inputed ticket id
+2. Option (2) displays detailed information of a particular ticket based on the inputted ticket id
 
 3. option (q) quits the program
 
