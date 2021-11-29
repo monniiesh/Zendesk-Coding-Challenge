@@ -1,0 +1,4 @@
+pytest
+prettytable
+requests
+json
