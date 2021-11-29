@@ -283,6 +283,7 @@ def ui(url, user, passwd):
 				if requests.get(next_page, auth=(user, passwd), timeout = 5).json()["tickets"] != []:
 					print(" * (2) Next Page")
 					next_exist = True
+				print(" * (q) Exit")
 				opt = input("Enter Page [1 - 2] or (q) exit : ")
 				print()
 
